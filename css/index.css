@@ -1,0 +1,16 @@
+/*@keyframes example {
+    0%   {background-image: url(../img/img-1.jpg) }
+    25%  {background-image:  url(../img/img-2.jpg)}
+    50%  {background-image:  url(../img/img-3.jpg)}
+    75%  {background-image:  url(../img/img-4.jpg)}
+    100% {background-image: url(../img/img-1.jpg) }
+  }
+  
+  body {
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+  }*/
+body{
+    background-color: rgb(9, 8, 8);
+}
