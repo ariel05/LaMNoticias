@@ -11,6 +11,32 @@
     animation-name: example;
     animation-duration: 10s;
   }*/
+  @font-face {
+    font-family: "CustomFont";
+    src: url("font/Epilogue-Italic-VariableFont_wght.ttf");
+    src: url("Epilogue-VariableFont_wght.ttf"),
+    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+    }
+
 body{
     background-color: rgb(73, 73, 73);
+}
+
+#titulo-principal{
+  color: #6f42c1;
+  font-family:  "Sofia", sans-serif;
+}
+
+.titulares-individuales{
+  color: #20c997;
+}
+
+#titulares img{
+  max-height: 65%;
+}
+
+#titulares img:hover{
+  border: rgb(6, 114, 69);
+  cursor: pointer;
 }
